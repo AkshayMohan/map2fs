@@ -1,0 +1,45 @@
+/*
+_______________________________________________________________________
+
+				map2fs - Convert SA-MP map code to filterscript
+							style.css
+	
+@Author:	Akshay Mohan - https://github.com/AkshayMohan
+@Version:	v0.1
+@Github:	https://github.com/AkshayMohan/map2fs
+
+_______________________________________________________________________
+
+*/
+
+#main {
+
+    margin-left: 5%;
+}
+
+#main_heading {
+
+    text-align: center;
+}
+
+.code_field {
+
+    width: 40%;
+    height: auto;
+    font-family: monospace;
+}
+
+.code_field:nth-child(2) {
+
+    margin-left: 2%;
+}
+.codediv {
+
+    display: block;
+}
+
+#generate {
+
+    margin-top: 2%;
+    margin-left: 40%;
+}
