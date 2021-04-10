@@ -1,0 +1,53 @@
+<!--
+_______________________________________________________________________
+
+				map2fs - Convert SA-MP map code to filterscript
+							index.html
+	
+@Author:	Akshay Mohan - https://github.com/AkshayMohan
+@Version:	v0.1
+@Github:	https://github.com/AkshayMohan/map2fs
+
+_______________________________________________________________________
+
+!-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css"/>
+		<title>
+			map2fs: SA-MP Map to Filterscript
+		</title>
+	</head>
+	<body>
+		<h1 id="main_heading">map2fs: SA-MP Map to Filterscript | v0.1</h1>
+		<div id="main">
+			<div id="codediv">
+				<textarea 
+					class="code_field"
+					placeholder="Paste your map code here"
+					rows="30"
+					spellcheck="false"
+					id="input_source"
+				></textarea>
+				<textarea
+					class="code_field"
+					placeholder="Output code"
+					rows="30"
+					spellcheck="false"
+					id="output_source"
+				></textarea>
+			</div>
+			<button 
+				id="generate"
+				type="submit"
+			>Generate FS
+			</button>
+		</div>
+		<script type="text/javascript" src="js/modules/SAMPObject.js"></script>
+		<script type="text/javascript" src="js/modules/RemovedBuilding.js"></script>
+		<script type="text/javascript" src="js/converter.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
